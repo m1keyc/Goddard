@@ -1,17 +1,17 @@
 import React from 'react'
 
 
-import styles from "..Ufo.module.css";
+import styles from "@styles/Ufo.module.css";
 
 export interface IUfoProps {}
 
 const Ufo: React.FunctionComponent<IUfoProps> = () => {
 
   return (
-    <div className="center"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="400px" height="400px" viewBox="0 0 400 400" enableBackground="new 0 0 400
+    <div className={styles.center}><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="400px" height="400px" viewBox="0 0 400 400" enableBackground="new 0 0 400
 400" xmlSpace="preserve">
           <rect y="252.945" opacity="0.68" fill="url(#SVGID_2_)" width={400} height="147.055" />
-          <g id="BigHole">
+          <g className={styles.BigHole}>
             <g>
               <polygon fill="#87D6F8" points="63.257,67.289 199.464,119.545
 335.675,67.288 199.464,15.028           " />
@@ -23,10 +23,10 @@ const Ufo: React.FunctionComponent<IUfoProps> = () => {
 261.978,39.013 199.464,15.028           " />
             </g>
           </g>
-          <g id="BackProtrusion">
+          <g className={styles.BackProtrusion}>
             <path fill="#9E9ECE" d="M73.271,132.802l0.002,0.001l0,0L200,181.423l126.734-48.621L200,84.183L73.271,132.802z" />
           </g>
-          <g id="LittleHole">
+          <g className={styles.LittleHole}>
             <g>
               <polygon fill="#87D6F8" points="142.972,132.877 200,154.755
 257.029,132.876 200,110.997             " />
@@ -38,7 +38,7 @@ const Ufo: React.FunctionComponent<IUfoProps> = () => {
 226.173,121.038 200,110.997             " />
             </g>
           </g>
-          <g id="Beam">
+          <g className={styles.Beam}>
             <g>
               <polygon opacity="0.8" fill="#B9E5FB" points="200.002,110.909
 185,116.619 185,400 214.938,400 214.938,116.64          " />
@@ -60,23 +60,23 @@ const Ufo: React.FunctionComponent<IUfoProps> = () => {
 226,120.851 226,400 214.938,400                 " />
             </g>
           </g>
-          <g id="Speck1">
+          <g className={styles.Speck1}>
             <rect x="224.359" y="216.472" transform="matrix(0.7071 0.7071
 -0.7071 0.7071 220.8868 -96.1145)" opacity="0.615" fill="#EFF9FE" width="4.209" height="4.21" />
           </g>
-          <g id="Speck2">
+          <g className={styles.Speck2}>
             <rect x="201.309" y="338.985" transform="matrix(0.7071 0.7071
 -0.7071 0.7071 300.7659 -43.9324)" fill="#5D3A6D" width="4.209" height="4.21" />
             <rect x="207.286" y="315.501" transform="matrix(0.7071 0.7071
 -0.7071 0.7071 285.9104 -55.0369)" fill="#9E76B4" width="4.209" height="4.21" />
           </g>
-          <g id="Speck3">
+          <g className={styles.Speck3}>
             <rect x="178.468" y="314.059" transform="matrix(0.707 0.7072 -0.7072
 0.707 277.8885 -35.6541)" fill="#5D3A6D" width="7.017" height="7.017" />
             <rect x="207.309" y="350.772" transform="matrix(0.7071 0.7071
 -0.7071 0.7071 310.858 -44.7227)" fill="#9E76B4" width="4.209" height="4.21" />
           </g>
-          <g id="House">
+          <g className={styles.House}>
             <g>
               <path fill="#5D3A6D" d="M160.063,286.933h0.002l0,0l39.937,15.322l39.935-15.322l-39.935-15.322L160.063,286.933z" />
               <polygon fill="#9178A2" points="160.063,252.384 160.063,286.933
@@ -106,32 +106,32 @@ const Ufo: React.FunctionComponent<IUfoProps> = () => {
 160.538,252.462 160.063,252.645 160.063,258.564
                 180.032,231.804 200.002,243.201 200.002,237.281         " />
           </g>
-          <g id="Shadow1">
+          <g className={styles.Shadow1}>
             <polygon fill="#756F90" points="200,237.165 200,243.166
 239.937,258.385 239.937,252.384         " />
             <polygon fill="#765D89" points="200.002,237.165 180.113,226.229
 160.538,252.462 160.063,252.645 160.063,258.564
                 180.032,231.804 200.002,243.201 200.002,237.281         " />
           </g>
-          <g id="Shadow2">
+          <g className={styles.Shadow2}>
             <polygon fill="#756F90" points="200,237.165 200,243.166
 239.937,258.385 239.937,252.384         " />
             <polygon fill="#765D89" points="200.002,237.165 180.113,226.229
 160.538,252.462 160.063,252.645 160.063,258.564
                 180.032,231.804 200.002,243.201 200.002,237.281         " />
           </g>
-          <g id="Speck4">
+          <g className={styles.Speck4}>
             <rect x="223.895" y="324.368" transform="matrix(0.7071 0.7071
 -0.7071 0.7071 297.0452 -64.1844)" fill="#9E9ECE" width="4.209" height="4.21" />
           </g>
-          <g id="FrontProtrusionTop">
+          <g className={styles.FrontProtrusionTop}>
             <path fill="#A098CA" d="M73.271,98.742l0.002,0.001l0,0l126.73,0l126.73,0L200,50.123L73.271,98.742z" />
             <polygon fill="#9E76B4" points="200,19.002 326.916,67.693
 326.916,98.816 200,50.123       " />
             <polygon fill="#5D3A6D" points="73.082,98.816 200,50.123 200,19.002
 73.082,67.693   " />
           </g>
-          <g id="FrontProtrusionBottom">
+          <g className={styles.FrontProtrusionBottom}>
             <polygon fill="#9E76B4" points="200,53.062 326.916,101.753
 326.916,132.876 200,84.183      " />
             <polygon fill="#5D3A6D" points="73.082,132.876 200,84.183 200,53.062
@@ -139,7 +139,7 @@ const Ufo: React.FunctionComponent<IUfoProps> = () => {
             <polygon fill="#9E9ECE" points="142.898,132.799 200,110.891
 257.105,132.799 326.729,132.799 200,84.183 73.277,132.799       " />
           </g>
-          <g id="HiddenShip">
+          <g className={styles.HiddenShip}>
             <polygon fill="#4B3067" points="0,0 0,67.622 62.217,67.622
 62.215,67.621 199.998,14.76 337.789,67.621 337.785,67.622
                 400,67.622 400,0        " />
