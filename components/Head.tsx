@@ -11,10 +11,10 @@ const Head = ({title, favicon, name, content}: HeadProps) => {
 
   return (
     <NextHead>
-      <title>{ title ? title : "0xUFO's" }</title>
+      <title>{ title ? title : "Goddard Group" }</title>
       <meta
-        name={ name ? name : "0xUF0s" }
-        content={ content ? content : "0xUF0s NFT" }
+        name={ name ? name : "Goddard Group" }
+        content={ content ? content : "Goddard Group" }
       />
       <link rel="icon" href={ favicon ? favicon : "/favicon.ico"} />
     </NextHead>
