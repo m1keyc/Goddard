@@ -1,8 +1,8 @@
 import React, { useEffect, useState, useLayoutEffect } from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
-import Ufo from './ufo';
-import Footer from './footer';
+import Ufo from '../components/ufo';
+import Footer from '../components/footer';
 import styles from "@styles/index.module.css";
 import { useRouter } from 'next/router';
 

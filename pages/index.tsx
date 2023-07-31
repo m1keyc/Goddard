@@ -2,7 +2,7 @@ import type { NextPage } from "next";
 import { useState, useEffect } from 'react';
 import Home from "./home";
 import Head from "next/head";
-import Loader from "@components/sections/Loader";
+import Loader from "@components/Loader";
 
 const Index: NextPage = () => {
   const [showHome, setShowHome] = useState(false);
