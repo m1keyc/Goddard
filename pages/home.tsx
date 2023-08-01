@@ -61,11 +61,20 @@ const Home: React.FC = () => {
     <>
       <Head>
         <title>GODDARD GROUP</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
       {/* ---HEADER---- */}
       <div className={styles.onemain}>
-        <h1 className={styles.title1}>GODDARD GROUP</h1>
-        <h1 className={styles.sub1}>REAL ESTATE - STAGING - CONSTRUCTION</h1>
+        <div className={styles.titlebox}>
+          <img className={styles.title1} src="/gganim.svg" height={200}/>
+          {/* <h1 className={styles.title1}>GODDARD GROUP</h1> */}
+          <h1 className={styles.sub1}>REAL ESTATE</h1>
+          <h1 className={styles.sub1}>STAGING</h1>
+          <h1 className={styles.sub1}>CONSTRUCTION</h1>
+          <h1 className={styles.sub1}>LANDSCAPING</h1>
+          <h1 className={styles.sub1}>MORTGAGES</h1>
+          <h1 className={styles.sub1}>DEBT COUNSELORS</h1>
+        </div>
       </div>
       <div className={styles.shapediv1}></div>
       {/* -------ABOUT------- */}
@@ -129,18 +138,24 @@ const Home: React.FC = () => {
           <h2 className={styles.infosub}>Check out my listings and staging gallery.</h2>
         </div>
         <div className={styles.buttons}>
-          <img src="/listings2.svg" />
+          <div className={styles.buttonscont}>
+          <img src="/listings2.svg" height={200}/>
           <button className={styles.learnmore} onClick={handleListingClick}>
             Listings
           </button>
+          </div>
+          <div className={styles.buttonscont}>
+          <img src="/gallery22.svg" height={200}/>
+          <button className={styles.learnmore} onClick={handleGalleryClick}>
+            GALLERY
+          </button>
+          </div>
+          <div className={styles.buttonscont}>
           <img src="/gallery22.svg" />
           <button className={styles.learnmore} onClick={handleGalleryClick}>
             GALLERY
           </button>
-          <img src="/gallery22.svg" />
-          <button className={styles.learnmore} onClick={handleGalleryClick}>
-            NEXTJS FUCK VITE YOU SUCK AT CODING
-          </button>
+          </div>
         </div>
       </div>
       <div className={styles.info2}>
