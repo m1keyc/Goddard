@@ -9,7 +9,7 @@ const Footer: React.FunctionComponent<IFooterProps> = () => {
 
   return (
     <div className={styles.footer}>
-        <h2>GODDARD GROUP</h2>
+        <h2>CONTACT</h2>
         <img src='/gg2.svg'></img>
         <img src='/satori4.svg' width={140}></img>
     </div>

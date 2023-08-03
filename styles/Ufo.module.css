@@ -19,6 +19,16 @@
     }
   }
   
+  
+  @media only screen and (max-width: 480px)  {
+  .center {
+    overflow-x: hidden;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  }
   .House {
     transform-origin: 50% 50%;
     animation-timing-function: ease-in;

@@ -190,13 +190,16 @@ const NavBar = () => {
         </div>
         <div className={styles.social}>
         <a href="/">
-            <Image width={39} height={39} src="/loader.svg" className={styles.socialicon2} />
+            <Image width={50} height={50} src="/gg2.svg" className={styles.socialicon2} />
           </a> 
-          <a href="https://twitter.com/">
-            <Image width={25} height={25} src="/tw1.svg" className={styles.socialicon} />
+          <a href="/listings">
+            <Image width={75} height={75} src="/listnav2.svg" className={styles.socialicon} />
           </a>
-          <a href="https://opensea.io/collection/">
-            <Image width={25} height={25} src="/os1.svg" className={styles.socialicon} />
+          <a href="/gallery">
+            <Image width={75} height={75} src="/galnav.svg" className={styles.socialicon} />
+          </a>
+          <a href="/contact">
+            <Image width={75} height={75} src="/contnav.svg" className={styles.socialicon} />
           </a>
    
         </div>
@@ -213,7 +216,7 @@ const NavBar = () => {
         </div>
         <Drawer isOpen={isOpen} placement="right" onClose={onClose}>
           <DrawerOverlay />
-          <DrawerContent background="black">
+          <DrawerContent background="#00000042">
             <DrawerCloseButton />
             <DrawerBody>
               <Stack marginTop="20" spacing="24px">
@@ -222,9 +225,34 @@ const NavBar = () => {
                     Home
                   </button>
                 </Link>
-                <Link href="/viewer" passHref>
+                <Link href="/listings" passHref>
                   <button className={styles.button} onClick={onClose}>
-                    Goddard Group
+                    Listings
+                  </button>
+                </Link>
+                <Link href="/gallery" passHref>
+                  <button className={styles.button} onClick={onClose}>
+                    Gallery
+                  </button>
+                </Link>
+                <Link href="/contact" passHref>
+                  <button className={styles.button} onClick={onClose}>
+                    Contact
+                  </button>
+                </Link>
+                <Link href="/contact" passHref>
+                  <button className={styles.button} onClick={onClose}>
+                  <Image width={50} height={50} src="/facebookicon2.svg" className={styles.socialicon3} />
+                  </button>
+                </Link>
+                <Link href="/contact" passHref>
+                  <button className={styles.button} onClick={onClose}>
+                  <Image width={50} height={50} src="/instagramicon.svg" className={styles.socialicon3} />
+                  </button>
+                </Link>
+                <Link href="/contact" passHref>
+                  <button className={styles.button} onClick={onClose}>
+                  <Image width={50} height={50} src="/linkedinicon.svg" className={styles.socialicon3} />
                   </button>
                 </Link>
               </Stack>

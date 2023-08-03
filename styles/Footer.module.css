@@ -8,4 +8,9 @@
   background: rgb(49, 49, 49);
   font-family: 'Poiret One', cursive;
   color: rgb(235, 235, 235);
+  
+}
+
+.footer h2 {
+  margin-top: 20px;
 }
