@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+.gallerybox {
+   
+}
+
+.gimg1 {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(/test1.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.gimg2 {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(/test2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .gimg3 {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(/test3.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .gimg4 {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(/test4.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.text1 {
+text-align: left;
+justify-content: center;
+align-items: center;
+padding-top: 15vh;
+padding-left: 25px;
+color: rgb(255, 255, 255);
+font-family: 'Roboto', sans-serif;
+font-weight: 900;
+font-size: 3.5vw;
+text-decoration: underline;
+animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+.text2 {
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    padding-left: 25px;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 1.8vw;
+    animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.5s both;
+    }
+
+    .text3 {
+        text-align: left;
+        justify-content: center;
+        align-items: center;
+        padding-left: 25px;
+        color: rgb(255, 255, 255);
+        font-family: 'Roboto', sans-serif;
+        font-weight: 600;
+        font-size: 1.8vw;
+        animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1.2s both;
+        }
+
+    @keyframes fade-in {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+      
+
+    @media only screen and (max-width: 480px)  {
+        .text1 {
+            font-size: 6vw;
+        }
+
+        .text2 {
+            font-size: 4vw;
+        }
+    }

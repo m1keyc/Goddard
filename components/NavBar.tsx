@@ -222,22 +222,22 @@ const NavBar = () => {
               <Stack marginTop="20" spacing="24px">
                 <Link href="/" passHref>
                   <button className={styles.button} onClick={onClose}>
-                    Home
+                    HOME
                   </button>
                 </Link>
                 <Link href="/listings" passHref>
                   <button className={styles.button} onClick={onClose}>
-                    Listings
+                    LISTINGS
                   </button>
                 </Link>
                 <Link href="/gallery" passHref>
                   <button className={styles.button} onClick={onClose}>
-                    Gallery
+                    GALLERY
                   </button>
                 </Link>
                 <Link href="/contact" passHref>
                   <button className={styles.button} onClick={onClose}>
-                    Contact
+                    CONTACT
                   </button>
                 </Link>
                 <Link href="/contact" passHref>
