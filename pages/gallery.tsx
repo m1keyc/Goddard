@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from "@styles/gallery.module.css";
 import Footer from '../components/footer';
+import Galleryui from '../components/Galleryui';
 const Gallery: React.FC = () => {
   return (
     <div  className={styles.gallerybox}>

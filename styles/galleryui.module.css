@@ -1,0 +1,250 @@
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 5vh;
+    padding-top: 12vh;
+    font-size: 2.5vw;
+    padding-bottom: 10vh;
+    text-align: left;
+    text-decoration: overline;
+}
+
+.container {
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    max-height: fit-content;
+    text-align: center;
+    display: flex;
+    margin-top: -5vh;
+}
+
+.containermain {
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    text-align: center;
+    
+}
+
+.imgh {
+    border-radius: 5px;
+}
+
+.imgh:hover {
+    opacity: 80%;
+}
+
+.containerother {
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    padding-right: 20px;
+}
+
+.gallerybutton {
+    display: none;
+    
+}
+
+.container2 {
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    max-height: fit-content;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.infobox {
+    align-items: center;
+    justify-content: center;
+    width: 740px;
+    max-height: fit-content;
+    background: rgb(216, 216, 216);
+    display: flex;
+    flex-direction: row;
+}
+
+.infoboxc {
+    align-items: center;
+    justify-content: center;
+    width: 60vw;
+    max-height: fit-content;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.text1 {
+    font-size: 5vh;
+}
+
+.text2 {
+    font-size: 1.5vh;
+}
+
+.description {
+    width: 50vw;
+    height: 15vh;
+    padding-top: 20px;
+}
+
+.text3 {
+    font-size: 1.5vh;
+}
+
+.contactme {
+    width: 30vw;
+    padding-bottom: 3vh;
+}
+
+.text4 {
+    text-decoration: overline;
+    font-size: 3.5vw;
+}
+
+@media only screen and (max-width: 1000px)  {
+
+    .title {
+        padding-top: 13vh;
+        font-size: 4.5vw;
+        text-decoration: overline;
+    }
+    
+    .container {
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        max-height: fit-content;
+        text-align: center;
+        display: flex;
+        z-index: 1;
+    }
+    
+    .containermain {
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        text-align: center;
+        margin-left: 0;
+        padding-left: 10px;
+        padding-right: 10px;
+        z-index: 1;
+    }
+    
+    .containerother {
+        display: none;
+    }
+
+    .gallerybutton {
+        background: rgba(0, 0, 0, 0);
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        font-size: 5vw;
+        color: rgb(0, 0, 0);
+        
+        /* border: solid 10px black; */
+        z-index: 2;
+    }
+
+    .infobox {
+        align-items: center;
+        justify-content: center;
+        width: 95vw;
+        max-height: fit-content;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .description {
+        width: 95vw;
+    }
+
+    .contactme {
+        padding-top: 5vh;
+        padding-bottom: 3vh;
+    }
+
+    .text4 {
+        font-size: 5vw;
+    }
+
+}
+
+@media only screen and (max-width: 480px)  {
+    .title {
+        padding-top: 13vh;
+        font-size: 4.5vw;
+        text-decoration: overline;
+    }
+    
+    .container {
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        max-height: fit-content;
+        text-align: center;
+        display: flex;
+        z-index: 1;
+    }
+    
+    .containermain {
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        text-align: center;
+        margin-left: 0;
+        padding-left: 10px;
+        padding-right: 10px;
+        z-index: 1;
+    }
+    
+    .containerother {
+        display: none;
+    }
+
+    .gallerybutton {
+        background: rgba(0, 0, 0, 0);
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        font-size: 5vw;
+        color: rgb(0, 0, 0);
+        
+        /* border: solid 10px black; */
+        z-index: 2;
+    }
+
+    .infobox {
+        align-items: center;
+        justify-content: center;
+        width: 95vw;
+        max-height: fit-content;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .description {
+        width: 95vw;
+    }
+
+    .contactme {
+        padding-top: 5vh;
+        padding-bottom: 3vh;
+    }
+
+    .text4 {
+        font-size: 5vw;
+    }
+    
+}

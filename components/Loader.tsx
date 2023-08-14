@@ -6,7 +6,7 @@ const Loader = () => {
   return (
     <div className={styles.onemain}>
     <p className={styles.iten}>
-      <Image width={450} height={200} src="/loader.svg" />
+      <Image width={450} height={200} src="/ggloader.svg" />
     </p>
     </div>
   );
