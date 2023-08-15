@@ -29,7 +29,7 @@
   position: relative;
   display: block;
   width: calc(130% + 1.3px);
-  height: 178px;
+  height: 200px;
 }
 
 .shapefill {
@@ -604,14 +604,14 @@
 .about {
   padding-bottom: 9vh;
   padding-top: 6vh;
-  height: 100vh;
+  height: fit-content;
 }
 
 .aboutbg {
   width: 100vw;
   flex-direction: column;
   padding-bottom: 8vh;
-  padding-top: 15vh;
+  padding-top: 4vh;
 }
 
 .container {
@@ -621,7 +621,7 @@
 
 .bio {
   width: 70vw;
-  
+  text-align: left;
 }
 
 .sub4 {
@@ -699,8 +699,9 @@
   }
   
   .about {
-    padding-bottom: 9vh;
+    padding-bottom: 2vh;
     padding-top: 6vh;
+    height: fit-content;
   }
   
   .aboutbg {
