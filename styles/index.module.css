@@ -29,7 +29,8 @@
   position: relative;
   display: block;
   width: calc(130% + 1.3px);
-  height: 200px;
+  height: 17vh;
+  /* height: 185px; */
 }
 
 .shapefill {
@@ -62,7 +63,7 @@
 
 .titlebox {
   width: 80vw;
-  line-height: 1
+  line-height: 1;
 }
 
 .title1 {
@@ -567,29 +568,161 @@
   width: 30vw;
 }
 
+/* LAPTOP */
+@media only screen and (max-width: 1100px)  {
+  .info {
+    width: 100%;
+  }
+  
+  .about {
+    padding-bottom: 2vh;
+    padding-top: 6vh;
+    height: fit-content;
+  }
+  
+  .aboutbg {
+    width: 100vw;
+    flex-direction: column;
+    padding-bottom: 10vh;
+  }
+  
+  .container {
+    width: 80vw;
+    padding-bottom: 4vh;
+  }
+  
+  .bio {
+    width: 70vw;
+    
+  }
+  
+  .sub4 {
+    font-size: 3.9vw;
+    padding-bottom: 1vh;
+  }
+  
+  .sub5 {
+    font-size: 2.9vw;
+    padding-bottom: 1vh;
+  }
 
-
+  .info2 {
+    margin: 0 auto;
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+    
+  }
+  
+  .infotext2 {
+    width: 100vw;
+    text-align: center;
+  }
+  
+  .infotitle2 {
+    font-size: 5.5vw;
+    width: 100vw;
+    padding: 10px;
+  }
+  
+  .infosub2 {
+    font-size: 4.5vw;
+  }
+  
+  .infosub3 {
+    margin-top: -3vh;
+  }
+  
+  .info2content {
+    display: flex;
+    flex-direction: column;
+    margin-top: -25vh;
+    width: 100vw;
+    text-align: center;
+  }
+  
+  .info2text {
+    width: 100vw;
+  }
+  
+  .infosub3 {
+    font-size: 6vw;
+    line-height: 2;
+    font-size: 7.6vw;
+  }
+  
+  .info2media {
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+  }
+  
+  }
 
 
 /* MOBILE */
 @media only screen and (max-width: 480px)  {
+  .onemain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .titlebox {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: -10vh;
+  }
+  
+  .title1 {
+    backdrop-filter: blur(3px);
+    border-radius: 7px;
+    color: #c02424;
+    width: 80vw;
+    
+    
+    
+    font-family: 'Julius Sans One', sans-serif;
+    -webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+            animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  }
+
+  .sub1 {
+    width: 80vw;
+    text-align: center;
+    font-size: 5vw;
+    font-weight: 400;
+  }
+  
   .customshapedivider svg {
     position: relative;
     display: block;
     width: calc(170% + 1.3px);
-    height: 150px;
+    /* height: 150px; */
+    height: 17vh;
     
   }
 
   .info {
   width: 100%;
-  
+  padding-top: 20vh;
 }
 
-.info2 {
-  width: 100%;
-  
+.infotitle {
+  font-size: 13vw;
 }
+
+.infosub {
+  font-size: 2.5vw;
+}
+
 
 .buttons {
   flex-direction: column;
@@ -602,9 +735,8 @@
 }
 
 .about {
-  padding-bottom: 9vh;
-  padding-top: 6vh;
   height: fit-content;
+  padding-bottom: 4vh;
 }
 
 .aboutbg {
@@ -612,6 +744,7 @@
   flex-direction: column;
   padding-bottom: 8vh;
   padding-top: 4vh;
+  height: fit-content;
 }
 
 .container {
@@ -640,12 +773,13 @@
 }
 
 .info2 {
+  width: 100%;
   margin: 0 auto;
   height: 150vh;
   display: flex;
   flex-direction: column;
   line-height: 0;
-  padding-top: 25vh;
+  padding-top: 35vh;
 }
 
 .infotext2 {
@@ -670,7 +804,7 @@
 .info2content {
   display: flex;
   flex-direction: column;
-  margin-top: -45vh;
+  margin-top: -35vh;
   width: 100vw;
   text-align: center;
 }
@@ -693,42 +827,4 @@
 }
 }
 
-@media only screen and (max-width: 1100px)  {
-  .info {
-    width: 100%;
-  }
-  
-  .about {
-    padding-bottom: 2vh;
-    padding-top: 6vh;
-    height: fit-content;
-  }
-  
-  .aboutbg {
-    width: 100vw;
-    flex-direction: column;
-    padding-bottom: 8vh;
-  }
-  
-  .container {
-    width: 80vw;
-    padding-bottom: 4vh;
-  }
-  
-  .bio {
-    width: 70vw;
-    
-  }
-  
-  .sub4 {
-    font-size: 3.9vw;
-    padding-bottom: 1vh;
-  }
-  
-  .sub5 {
-    font-size: 2.9vw;
-    padding-bottom: 1vh;
-  }
 
-  
-  }
